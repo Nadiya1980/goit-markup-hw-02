@@ -10,6 +10,7 @@ button {
 
 ul {
   list-style-type: none;
+  font-weight: 500;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
   overflow: hidden;
 }
 .cap-web {
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -37,10 +38,10 @@ a {
 }
 
 .cap-webstudio-link {
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -128,7 +129,7 @@ a {
 }
 
 .foot-web {
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -138,7 +139,7 @@ a {
 }
 
 .foot-webstudio-white {
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
