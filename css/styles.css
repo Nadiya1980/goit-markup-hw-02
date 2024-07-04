@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  margin: 0;
 }
 
 button {
@@ -15,6 +16,27 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+p {
+  display: block;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 .visually-hidden {
