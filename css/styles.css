@@ -118,6 +118,12 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.cap-address-list:hover,
+.cap-address-list:focus {
+  color: #404bbf;
+}
+
 .hero {
   width: 1440px;
   height: 600px;
@@ -164,6 +170,10 @@ a {
   height: 732px;
 }
 
+.team-foto-list {
+  background-color: #ffffff;
+}
+
 .title-two-team {
   font-size: 36px;
   text-transform: capitalize;
@@ -194,6 +204,10 @@ a {
   width: 1440px;
   height: 732px;
   background-color: #f4f4fd;
+}
+
+.portfolio-list {
+  background-color: #ffffff;
 }
 
 .title-two {
