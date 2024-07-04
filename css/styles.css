@@ -27,26 +27,17 @@ textarea {
   line-height: 1.15;
   margin: 0;
 }
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
+
 .visually-hidden {
-  position: absolute;
-  width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .cap {
-  width: 1440px;
-  height: 72px;
   background-color: #fff;
 }
 .address {
@@ -127,8 +118,6 @@ textarea {
   color: #404bbf;
 }
 .hero {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 .hero-title {
@@ -147,15 +136,13 @@ textarea {
   background-color: #4d5ae5;
   color: #fff;
   border: none;
-  padding: 10px 20px;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.15);
 }
+
 .hero-primary-btn:hover {
   background-color: #404bbf;
 }
@@ -164,8 +151,6 @@ textarea {
 }
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
 }
 .team-foto-list {
   background-color: #ffffff;
@@ -194,8 +179,6 @@ textarea {
   color: #434455;
 }
 .portfolio {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 .portfolio-list {
@@ -238,8 +221,6 @@ textarea {
   color: #434455;
 }
 .foot {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 .foot-web {
