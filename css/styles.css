@@ -14,9 +14,7 @@ ul {
 a {
   text-decoration: none;
 }
-p {
-  display: block;
-}
+
 button,
 input,
 optgroup,
@@ -29,7 +27,6 @@ textarea {
 }
 
 .visually-hidden {
-  height: 1px;
   margin: -1px;
   border: 0;
   white-space: nowrap;
