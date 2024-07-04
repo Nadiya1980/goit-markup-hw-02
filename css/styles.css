@@ -58,7 +58,44 @@ a {
   color: #2e2f42;
 }
 
+.cap-address-exact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.cap-address-exact:hover {
+  color: #404bbf;
+}
+
+.cap-address li:first-child .cap-address-exact:focus {
+  color: #404bbf;
+}
+.cap-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .cap-address a:hover {
+  color: #404bbf;
+}
+
+.contact-address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-address a:hover {
   color: #404bbf;
 }
 
@@ -84,18 +121,24 @@ a {
   text-align: center;
   color: #fff;
 }
-
-.hero-primary-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #404bbf;
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 
-.button {
+.hero-primary-btn {
   background-color: #4d5ae5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero-primary-btn:hover {
+  background-color: #404bbf;
 }
 
 .team {
