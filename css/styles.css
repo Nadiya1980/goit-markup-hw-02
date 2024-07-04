@@ -63,7 +63,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 
 .cap-address-exact:hover {
@@ -107,6 +107,13 @@ a {
   color: #434455;
 }
 
+.cap-address-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .hero {
   width: 1440px;
   height: 600px;
@@ -148,14 +155,21 @@ a {
 }
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
 }
 
 .title-two-team {
+  font-size: 36px;
   text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
+
 .job-title {
   font-weight: 500;
   font-size: 20px;
